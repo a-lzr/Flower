@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Flower</string>
+    <string name="add_top">Add top</string>
+    <string name="add_bottom">Add Bottom</string>
+    <string name="add_flower">Add Flower</string>
+    <string name="remove_top">Remove top</string>
+    <string name="remove_bottom">Remove bottom</string>
+    <string name="url_image">URL Image</string>
+    <string name="name">Name</string>
+    <string name="add">ADD</string>
+    <string name="price">Price</string>
+    <string name="add_complete">Add complete</string>
+    <string name="add_failed">Add failed</string>
+    <string name="add_fragment_failed">Flower is not add</string>
+    <string name="delete_fragment_failed">Fragment is not add</string>
+    <string name="count">Count:</string>
+</resources>

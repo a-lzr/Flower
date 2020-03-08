@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/topFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/bottomFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/topFragment" />
+
+    <Button
+        android:id="@+id/addTopFragment"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/addBottomFragment"/>
+
+    <Button
+        android:id="@+id/addBottomFragment"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/addFlower"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_flower"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/removeBottomFragment"
+        app:layout_constraintLeft_toRightOf="@+id/addBottomFragment" />
+
+    <Button
+        android:id="@+id/removeTopFragment"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_top"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/removeBottomFragment"/>
+
+    <Button
+        android:id="@+id/removeBottomFragment"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_bottom"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/count"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/removeTopFragment"
+        app:layout_constraintStart_toEndOf="@+id/addTopFragment"
+        app:layout_constraintTop_toTopOf="@+id/addTopFragment" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

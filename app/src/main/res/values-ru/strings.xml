@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Цветок</string>
+    <string name="add_top">Добавить сверху</string>
+    <string name="add_bottom">Добавить снизу</string>
+    <string name="add_flower">Добавить цветок</string>
+    <string name="remove_top">Удалить сверху</string>
+    <string name="remove_bottom">Удалить снизу</string>
+    <string name="url_image">Ссылка на картинку</string>
+    <string name="name">Название</string>
+    <string name="add">AДобавить</string>
+    <string name="price">Стоимость</string>
+    <string name="add_complete">Добавление завершено</string>
+    <string name="add_failed">Добавление невозможно</string>
+    <string name="add_fragment_failed">Цветок еще не добавлен</string>
+    <string name="delete_fragment_failed">Фрагмент еще не добавлен</string>
+    <string name="count">Кол-во:</string>
+</resources>
